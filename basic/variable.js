@@ -10,3 +10,5 @@ accountCity = "Lahore"
 console.log(accountId);
 console.table([accountId,accountPassword,accountEmail,accountCity]);
 
+// Stack and Heap 
+
