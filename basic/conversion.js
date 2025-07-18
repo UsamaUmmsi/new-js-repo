@@ -131,5 +131,13 @@
 
 // heap non premative data ka referance deta hai 
 
+let obj1 = { name: "Ali" };
+let obj2 = obj1;  // obj2 gets reference to obj1
+
+obj2.name = "Ahmed";
+
+console.log(obj1.name); // Ahmed
+console.log(obj2.name); // Ahmed
+
 
 
