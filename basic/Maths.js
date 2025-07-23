@@ -22,8 +22,9 @@
 console.log(Math.abs(4.5));
 console.log(Math.round(60.5));
 console.log(Math.floor(60.8));
+// random ki jo value ati hain wo 0 se 9 ke bech main ati hai  
 console.log(Math.random());
-console.log(Math.random()*10) +1;
+console.log(Math.random()*10)+ 1;
 
 
 
