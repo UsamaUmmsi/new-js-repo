@@ -36,11 +36,11 @@ const myArray2 = new Array(1,2,3,4,5,6,7,8,9,10)
 // console.log(newArry);
 
 
-// slice , splice
+// // slice , splice
 
 
-const myAar = myArray2.slice( 1 , 3)
+// const myAar = myArray2.slice( 1 , 3)
 
-console.log(myAar);
-console.log("B", myArray2);
+// console.log(myAar);
+// console.log("B", myArray2);
 
