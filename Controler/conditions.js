@@ -23,7 +23,7 @@ if (percentage > 100) {
     console.log('B grade aya ha maalik')
 }
 else {
-    console.log(percentage);
+    console.log(`failed hogaya yawr`);
 }
 
 
