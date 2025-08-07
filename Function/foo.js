@@ -107,18 +107,26 @@
 // // var input = document.querySelector('.input');
 // function getInputValue() {
 //     console.log(input.value)
-//     input.value = ''
+// //     input.value = ''
+// // }
+
+
+// function sumNumbers(a, b) {
+//     console.log("Sum:", a + b);
 // }
 
+// sumNumbers(5, 10); 
 
-function sumNumbers(a, b) {
-    console.log("Sum:", a + b);
-}
-
-sumNumbers(5, 10); 
-
-function score ( a , b ){
-    console.log("Sum : " , a + b );
+// function score ( a , b ){
+//     console.log("Sum : " , a + b );
     
+// }
+// score (50 , 100)
+
+
+
+function someNumber( a , b){ 
+    console.log( a + b );
 }
-score (50 , 100)
+someNumber(30 , 50)
+
