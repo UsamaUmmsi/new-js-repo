@@ -74,6 +74,10 @@ console.log(Array.from({name:"UmmsiKhan"})); //intrusting
 
 let score1 = 100 
 let score2 = 200 
-let score3 = 300 
+let score3 = ["superman","spidermen","hulk","moon"]
+
+let result = score3.concat(score2,score1)
+console.log(result);
+
 
 console.log(Array.of(score1,score2,score3))
