@@ -23,13 +23,19 @@ const mySym = Symbol("key1")
  }
  jsuser.email = "chatgpt@gmail.com",
 
- Object.freeze(jsuser)
+//  Object.freeze(jsuser)
 
  console.log(jsuser["full Name"]);
  console.log(jsuser [mySym]);
  
  console.log(jsuser);
 
+
+ jsuser.greeting = function(){
+    console.log("Hello JS User");
+ }
+ console.log(jsuser.greeting());
+ 
 
 
 
