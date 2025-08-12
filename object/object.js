@@ -34,7 +34,16 @@ const mySym = Symbol("key1")
  jsuser.greeting = function(){
     console.log("Hello JS User");
  }
+//  backtik ``main convert karne ko kehte hain string interpolation
+
+ jsuser.greetingTwo = function(){
+    console.log(`Hello JS User,${this["full Name"]}`);
+ }
  console.log(jsuser.greeting());
+ console.log(jsuser.greetingTwo());
+
+
+//  Square notation kuch special case mai hum use karte hain square wese ziyadatar use hot ahai . dot notation 
  
 
 
