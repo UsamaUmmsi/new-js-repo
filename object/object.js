@@ -213,3 +213,45 @@ const user3 = {
 
 console.log(Object.keys(user3));
 console.log(Object.values(user3));
+
+
+
+// =======================Destructure Object =============================
+
+const course = {
+  courseName : 'js Learning',
+  Price: 2000,
+  courseTeacher: "Usama Khan",
+}
+// yeh srif syntax haui 
+console.log(course.courseTeacher);
+
+// yeh hota hia desturcture karna 
+
+// course.CourseTeacher
+const {courseTeacher: Sir} = course
+console.log(Sir);
+
+
+// React main is tarhan se hotahia destructure
+
+const navbar = ({company})=>{
+
+}
+
+navbar(company = 'Ummsi')
+
+
+
+// Api ka matlab hota hai...... apna kam kisi or ko dena or karwa na 
+
+// api kuch value hoti hain mostly JSON main ati hain 
+
+,
+{
+
+"Name": "Ummsi",
+"Course": "Js-Crush-Course",
+"Price": "5000",
+
+}
