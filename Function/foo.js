@@ -130,3 +130,9 @@ function someNumber( a , b){
 }
 someNumber(30 , 50)
 
+// Normal Function 
+
+function greet(name){
+return`hello, ${name}`;
+}
+console.log(greet("Usama"));
